@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run -A --node-modules-dir npm:astro@4 dev",
+    "build": "deno run -A --node-modules-dir npm:astro@4 build",
+    "preview": "deno run -A --node-modules-dir npm:astro@4 preview"
+  },
+  "imports": {
+    "@astrojs/deno": "npm:@astrojs/deno",
+    "astro": "npm:astro@4",
+    "astro/client": "npm:astro@4/client",
+    "astro/config": "npm:astro@4/config"
+  }
+}
