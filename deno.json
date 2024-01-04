@@ -8,6 +8,7 @@
     "@astrojs/deno": "npm:@astrojs/deno",
     "astro": "npm:astro@4",
     "astro/client": "npm:astro@4/client",
-    "astro/config": "npm:astro@4/config"
+    "astro/config": "npm:astro@4/config",
+    "astro/tsconfigs/base": "npm:astro@4/tsconfigs/base"
   }
 }
